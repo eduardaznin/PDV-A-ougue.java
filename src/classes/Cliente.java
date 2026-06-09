@@ -26,8 +26,8 @@ public class Cliente extends Pessoa {
     }
 
     @Override
-    public String exibir(0){
-        return "Cliente{" + "nome=" + getNome() + "cpf=" + getCpf() + "telefone=" + getTelefone() + "saldo" + saldoDevedor + "quitado=" + quitado + "}"
+    public String exibir(){
+        return "Cliente{" + "nome=" + getNome() + "cpf=" + getCpf() + "telefone=" + getTelefone() + "saldo" + saldoDevedor + "quitado=" + quitado + "}";
     }
     
 }
